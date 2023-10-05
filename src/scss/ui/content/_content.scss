@@ -1,0 +1,17 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+ 
+.content{
+    margin: 5rem;
+    padding: 3.5rem;
+    background-color: v.$primario;
+    color: v.$blanco;
+    
+}
+.tiendas{
+    display: flex;
+    flex-direction: row;
+    
+    text-transform: uppercase;
+    justify-content: center;
+}

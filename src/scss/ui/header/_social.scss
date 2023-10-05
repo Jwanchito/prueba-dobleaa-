@@ -1,0 +1,21 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+
+.social{
+    align-items: row;
+    display: flex;
+    justify-content: flex-end;
+    
+    &__icono{
+        text-transform: uppercase;
+        flex-direction: column;
+        margin-right: 1rem; 
+
+    }
+}
+.social__icono:hover{
+    text-decoration: underline;
+    color: v.$primario;
+    transition: .5s;
+}
